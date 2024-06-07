@@ -2,8 +2,8 @@ version: v1.0
 name: Semaphore JavaScript Example Pipeline
 agent:
   machine:
-    type: e1-standard-2
-    os_image: ubuntu2004
+    type: s1-hamir-test
+    os_image: ''
 blocks:
   - name: "\U0001F50D Lint"
     task:
